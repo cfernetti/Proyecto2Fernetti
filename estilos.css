@@ -1,0 +1,121 @@
+header{
+    height: 80px;
+    background-color: pink;
+    color: fuchsia;
+    font-size: 70px;
+    text-transform: capitalize;
+    padding: 50px;
+}
+
+.logo{
+    float: left;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul a{
+    color: fuchsia;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    float: right;
+    font-size: 20px;
+    padding: 10px;
+}
+
+ul li :hover{
+    color: black;
+}
+
+.contenedor{
+    width: 100%;
+    background-color: pink;
+    display: grid;  
+    grid-template-columns:repeat(4,1fr) ;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas:
+    "img1 img2 img3 img3"
+    "img1 img4 img5 img6"
+    "img7 img4 img5 img6";
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.img{
+    border: 3px solid fuchsia;
+    background-size: cover; 
+    background-position: center;
+    border-radius: 12px;
+}
+
+.img1{
+    background-image: url(./img/img1.jpeg);
+    grid-area: img1;
+}
+
+.img2{
+    background-image: url(./img/img2.jpeg);
+    grid-area: img2;
+}
+
+.img3{
+    background-image: url(./img/img3.jpeg);
+    grid-area: img3;
+}
+
+.img4{
+    background-image: url(./img/img4.jpeg);
+    grid-area: img4;
+}
+
+.img5{
+    background-image: url(./img/img5.jpeg);
+    grid-area: img5;
+}
+
+.img6{
+    background-image: url(./img/img6.jpeg);
+    grid-area: img6;
+}
+
+.img7{
+    background-image: url(./img/img7.jpeg);
+    grid-area: img7;
+}
+
+.img8{
+    background-image: url(./img/img8.jpeg);
+    grid-area: img8;
+}
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    font-size: 19px;
+    background-color:pink;
+    color: fuchsia;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+
+a{
+    /*color: fuchsia;*/
+    /*text-decoration: none;*/
+    /*background-color: red;*/
+    display: inline-block;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+
+
